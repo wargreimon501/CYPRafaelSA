@@ -1,0 +1,5 @@
+A = int(input("dame tu numero entero :"))
+B = int(input("dame tu numero entero :"))
+C = int(input("dame tu numero entero :"))
+D = int(input("dame tu numero entero :"))
+print(f"{D} {C} {B} {A}")
