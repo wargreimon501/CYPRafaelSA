@@ -1,7 +1,15 @@
-NOMINA=0
+SUMPAR=0
+SUMIMP=0
+CUEPAR=0
 i=1
-for i in range (11):
-    SUE=int(input("dame tu sueldo :"))
-    NOMINA=NOMINA+SUE
+while (i!=-1):
+    NUM=int(input("dame un numero entre :"))
+    if NUM!=0:
+        if (-1**NUM)>0:
+            SUMPAR=SUMPAR+NUM
+            CUEPAR=CUEPAR + 1
+        else:
+            SUMIMP=SUMIMP+1
     i=i+1
-    print(NOMINA)
+PROPAR=SUMPAR/CUEPAR
+print("{PROPAR} , {SUMIPM}")
