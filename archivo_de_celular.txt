@@ -1,0 +1,9 @@
+marca , modelo , almacenamiento , velocidad , ram , color
+huawei , P20 ,64,2.3,6,azul
+huawei , P20 lite ,32,1.8,4,blanco
+huawei , P20 lite ,32,1.8,4,negro
+samsung,J7,16,1.2,4,gris
+samsung,J7,16,1.2,4,rojo
+apple,iphone XII,1024,6.8,32,negro especial
+apple,iphone XI,512,3.8,16,blanco
+apple,iphone X,256,2.8,16,rosa
