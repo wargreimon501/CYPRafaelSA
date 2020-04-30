@@ -1,0 +1,10 @@
+x1=int(input("dame el valor de x1 "))
+x2=int(input("dame el valor de x2 "))
+x3=int(input("dame el valor de x3 "))
+y1=int(input("dame el valor de y1 "))
+y2=int(input("dame el valor de y2 "))
+y3=int(input("dame el valor de y3 "))
+c=x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)
+a=abs(c)
+b=(1/2)*a
+print(f"el arae del triangulo es {b}")

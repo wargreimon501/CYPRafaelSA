@@ -7,11 +7,31 @@ package persona.ingeniero;
 
 import persona.Persona;
 
+
+        
 /**
  *
  * @author rober
  */
-public class ingeniero extends persona{
+public class ingeniero extends Persona{
+    
+    int semestre;
+    String carrera;
+
+    public ingeniero() {
+    }
+
+    public ingeniero(int semestre, String carrera) {
+        this.semestre = semestre;
+        this.carrera = carrera;
+    }
+
+    public ingeniero(int semestre, String carrera, String nombre, int fechaDeNacimiento, int curp, String sexo) {
+        super(nombre, fechaDeNacimiento, curp, sexo);
+        this.semestre = semestre;
+        this.carrera = carrera;
+    }
+     
     
 
     /**
